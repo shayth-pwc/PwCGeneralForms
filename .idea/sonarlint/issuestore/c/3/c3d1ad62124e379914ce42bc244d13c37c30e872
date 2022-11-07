@@ -1,0 +1,9 @@
+
+t
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(øë¦½øÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆæÅN
+g
+java:S3655)"RCall "countries.isPresent()" or "!countries.isEmpty()" before accessing the value.(ª«Î
+l
+java:S4144 "VUpdate this method so that its implementation is not identical to "create" on line 25.(ã¯÷µ
+Q	java:S125,"<This block of commented-out lines of code should be removed.(ƒ¶÷÷
