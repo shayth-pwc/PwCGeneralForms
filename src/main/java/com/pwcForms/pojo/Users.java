@@ -7,6 +7,8 @@ public class Users {
 
     @Id
     @PartitionKey
+    private String userId;
+
     private String userGuid;
 
     private String userFullName;
@@ -100,6 +102,15 @@ public class Users {
 
     public String getUserImage() {
         return userImage;
+    }
+
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
 

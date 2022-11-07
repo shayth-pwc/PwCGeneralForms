@@ -7,5 +7,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface FirmsRepository extends CosmosRepository<Firms, String> {
 
+    Iterable<Firms> findBySlugCountry(String slugCountry);
 }
 
